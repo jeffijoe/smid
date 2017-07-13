@@ -4,14 +4,14 @@
  * @param fn The function that should invoke the error.
  * @param msg Optional message.
  */
-export function throws<T = Error>(fn: Function, msg?: string): T
+export function throws<T = Error> (fn: Function, msg?: string): T
 
 /**
  * Catches an async error. Throws if promise is not rejected.
  * @param fn Can be a promise or a function returning a promise
  * @param msg Optional message.
  */
-export function throws<T = Error>(
+export function throws<T = Error> (
   fn: Promise<any> | (() => Promise<any>),
   msg?: string
 ): Promise<T>
@@ -21,7 +21,7 @@ export function throws<T = Error>(
  * @param fnOrPromise Function or a Promise.
  * @param msg Optional message.
  */
-export function throws<T = Error>(
+export function throws<T = Error> (
   fnOrPromise: Promise<any> | (() => Promise<any>) | Function,
   msg?: string
 ): T | Promise<T> {
