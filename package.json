@@ -1,6 +1,6 @@
 {
   "name": "smid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Catch errors and returns them. Supports sync and async (Promises)",
   "files": [
     "lib",
