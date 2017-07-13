@@ -13,7 +13,6 @@ Written in TypeScript.
 [![npm](https://img.shields.io/npm/l/smid.svg?maxAge=1000)](https://github.com/jeffijoe/smid/blob/master/LICENSE.md)
 [![Built with TypeScript](https://img.shields.io/badge/typings-included-brightgreen.svg)](http://typescriptlang.org)
 
-
 # Install
 
 ```
